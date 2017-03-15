@@ -1,5 +1,21 @@
+*.pyc
+
+Scripts/
+lib/
+tcl/
+static_in_env/
+
 bin/
 include/
 lib/
 .DS_STORE
 .Python
+
+
+v_trydjango18/
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
